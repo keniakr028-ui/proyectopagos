@@ -1,0 +1,1 @@
+-- SQL de ejemplo para el sistema de pagos

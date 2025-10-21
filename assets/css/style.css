@@ -1,0 +1,414 @@
+
+
+/* === ESTILOS GENERALES === */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+}
+
+/* === PÁGINA DE LOGIN ===  */
+.login-body {
+    background: linear-gradient(135deg, #777b7c 0%, #6bc0e2 100%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-container {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+}
+
+
+.login-card {
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+}
+
+.login-header {
+    background: linear-gradient(135deg, #777b7c 0%, #6bc0e2 100%);
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+.login-header i {
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+
+.login-header h2 {
+    margin: 0;
+    font-weight: bold;
+}
+
+.login-header p {
+    margin: 5px 0 0 0;
+    opacity: 0.9;
+}
+
+.login-card .card-body {
+    padding: 30px;
+}
+
+.btn-login {
+    width: 100%;
+    padding: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background: linear-gradient(135deg, #f87c08 0%, #ec1606 100%);
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.btn-login:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.login-footer {
+    background: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+    color: #6c757d;
+}
+
+.login-footer p {
+    margin: 0 0 10px 0;
+    font-size: 0.9rem;
+}
+
+.login-footer small {
+    font-size: 0.8rem;
+}
+
+/* === NAVEGACIÓN === */
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.navbar-brand i {
+    margin-right: 8px;
+}
+
+/* === SIDEBAR === */
+.sidebar-menu {
+    border: none;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar-menu h5 {
+    color: #eb2d13;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.list-group-item {
+    border: none;
+    border-radius: 8px !important;
+    margin-bottom: 5px;
+    transition: all 0.3s ease;
+}
+
+.list-group-item i {
+    margin-right: 10px;
+    width: 20px;
+}
+
+.list-group-item:hover {
+    background-color: #e9ecef;
+    transform: translateX(5px);
+}
+
+.list-group-item.active {
+    background: linear-gradient(135deg, #777b7c 0%, #6bc0e2 100%);
+    border-color: transparent;
+}
+
+/* === TARJETAS DE ESTADÍSTICAS === */
+.stat-card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    overflow: hidden;
+}
+
+.stat-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.stat-card .card-body {
+    display: flex;
+    align-items: center;
+    padding: 25px;
+}
+
+.stat-icon {
+    font-size: 2.5rem;
+    margin-right: 20px;
+    opacity: 0.8;
+}
+
+.stat-info h3 {
+    margin: 0;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.stat-info p {
+    margin: 0;
+    color: #6c757d;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.stat-primary {
+    background: linear-gradient(135deg, #eb6105 0%, #e2441c 100%);
+    color: white;
+}
+
+.stat-success {
+    background: linear-gradient(135deg, #eb660e 0%, #f15323 100%);
+    color: white;
+}
+
+.stat-info {
+    background: linear-gradient(135deg, #a1a7a3 0%, #7cdd9d 100%);
+    color: white;
+}
+
+.stat-warning {
+    background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+    color: white;
+}
+
+/* === PAGOS RECIENTES === */
+.recent-payments {
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.payment-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.payment-item:last-child {
+    border-bottom: none;
+}
+
+.payment-info strong {
+    display: block;
+    color: #495057;
+    font-size: 0.95rem;
+}
+
+.payment-info small {
+    color: #6c757d;
+    font-size: 0.8rem;
+}
+
+.payment-amount {
+    font-weight: bold;
+    color: #28a745;
+    font-size: 1.1rem;
+}
+
+/* === FORMULARIOS === */
+.form-control {
+    border-radius: 8px;
+    border: 2px solid #e9ecef;
+    padding: 12px 15px;
+    transition: all 0.3s ease;
+}
+
+.form-control:focus {
+    border-color: #667eea;
+    box-shadow: 0 0 0 0.2rem rgba(102, 126, 234, 0.25);
+}
+
+.form-label {
+    font-weight: 600;
+    color: #495057;
+    margin-bottom: 8px;
+}
+
+/* === TABLAS === */
+.table {
+    background: rgb(241, 240, 240);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.table thead th {
+    border: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 0.85rem;
+    padding: 20px 15px;
+}
+
+.table tbody td {
+    border: none;
+    padding: 15px;
+    vertical-align: middle;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #f0f4f8;
+}
+
+/* === BADGES === */
+.badge {
+    padding: 8px 12px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    border-radius: 20px;
+}
+
+/* === BOTONES === */
+.btn {
+    border-radius: 8px;
+    padding: 8px 20px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    transform: translateY(-1px);
+}
+
+.btn-success {
+    background: linear-gradient(135deg, #5dee38 0%, #99a09e 100%);
+    border: none;
+}
+
+.btn-primary {
+    background: linear-gradient(135deg, #b2b3b9 0%, #764ba2 100%);
+    border: none;
+}
+
+/* === CARDS === */
+.card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.15);
+}
+
+.card-header {
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    border: none;
+    border-radius: 15px 15px 0 0 !important;
+    font-weight: bold;
+    color: #495057;
+}
+
+.card-header h5, .card-header h6 {
+    margin: 0;
+}
+
+.card-header i {
+    margin-right: 8px;
+}
+
+/* === ALERTAS === */
+.alert {
+    border: none;
+    border-radius: 10px;
+    padding: 15px 20px;
+    font-weight: 500;
+}
+
+.alert i {
+    margin-right: 8px;
+}
+
+/* === RESPONSIVE === */
+@media (max-width: 768px) {
+    .stat-card .card-body {
+        padding: 20px 15px;
+    }
+    
+    .stat-info h3 {
+        font-size: 1.5rem;
+    }
+
+    
+    .payment-item {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .payment-amount {
+        margin-top: 5px;
+    }
+    
+    .login-container {
+        padding: 10px;
+    }
+}
+
+/* === ANIMACIONES === */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.card {
+    animation: fadeIn 0.6s ease-out;
+}
+
+.stat-card:nth-child(1) { animation-delay: 0.1s; }
+.stat-card:nth-child(2) { animation-delay: 0.2s; }
+.stat-card:nth-child(3) { animation-delay: 0.3s; }
+.stat-card:nth-child(4) { animation-delay: 0.4s; }
+
+/* === LOADING STATES === */
+.btn:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+/* === SCROLLBAR PERSONALIZADA === */
+.recent-payments::-webkit-scrollbar {
+    width: 6px;
+}
+
+.recent-payments::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+
+.recent-payments::-webkit-scrollbar-thumb {
+    background: #c1c1c1;
+    border-radius: 10px;
+}
+
+.recent-payments::-webkit-scrollbar-thumb:hover {
+    background: #a8a8a8;
+}
