@@ -177,17 +177,17 @@ body {
 }
 
 .stat-success {
-    background: linear-gradient(135deg, #eb660e 0%, #f15323 100%);
+    background: linear-gradient(135deg, #036280 0%, #c3f3fc 100%);
     color: white;
 }
 
 .stat-info {
-    background: linear-gradient(135deg, #a1a7a3 0%, #7cdd9d 100%);
+    background: linear-gradient(135deg, #116f94 0%, #a9f8f8 100%);
     color: white;
 }
 
 .stat-warning {
-    background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+    background: linear-gradient(135deg, #93dafb 0%, #1d025a 100%);
     color: white;
 }
 
